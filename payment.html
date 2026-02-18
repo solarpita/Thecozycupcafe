@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='payment.css'>
+    <script src='payment.js'></script>
+    <title>Cozy Cup - Payment</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2> Cozy Cup Payment</h2>
+
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Amount (₹)</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+
+        <label>Payment Method</label>
+        <select id="method">
+            <option>UPI</option>
+            <option>Credit Card</option>
+            <option>Debit Card</option>
+            <option>Net Banking</option>
+        </select>
+
+        <button onclick="payNow()" href="contact.html">Pay Now</button>
+
+        <p class="success" id="msg"></p>
+    </div>
+</body>
+
+</html>

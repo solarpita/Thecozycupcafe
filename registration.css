@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("images/registration.jpg")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-box {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.register-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5C3A1E;
+}
+
+.register-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.register-box button {
+    width: 100%;
+    padding: 10px;
+    background: #5C3A1E;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.register-box button:hover {
+    background: #f37209;
+}
+
+.register-box p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-box a {
+    color: #f37209;
+    text-decoration: none;
+    font-weight: bold;
+}
